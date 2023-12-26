@@ -13,16 +13,17 @@ import net.tamagaft.testmod.TestMod;
 import net.tamagaft.testmod.block.ModBlocks;
 
 public class ModItemGroups {
-    public static final ItemGroup TANZANITE = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(TestMod.MOD_ID, "tanzanite"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.tanzanite"))
-                    .icon(() -> new ItemStack(ModItems.TANZANITE)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.TANZANITE);
-                        entries.add(ModItems.RAW_TANZANITE);
+    public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(TestMod.MOD_ID, "ruby"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ruby"))
+                    .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.RUBY);
+                        entries.add(ModItems.RAW_RUBY);
 
                         entries.add(Items.DIAMOND);
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
+
 
                     }).build());
 
