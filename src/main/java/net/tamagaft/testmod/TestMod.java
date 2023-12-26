@@ -2,6 +2,7 @@ package net.tamagaft.testmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.tamagaft.testmod.block.ModBlocks;
 import net.tamagaft.testmod.item.ModItemGroups;
 import net.tamagaft.testmod.item.ModItems;
 import org.slf4j.Logger;
@@ -15,5 +16,6 @@ public class TestMod implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

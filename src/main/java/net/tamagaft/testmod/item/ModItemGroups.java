@@ -10,6 +10,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.tamagaft.testmod.TestMod;
+import net.tamagaft.testmod.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup TANZANITE = Registry.register(Registries.ITEM_GROUP,
@@ -20,7 +21,8 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_TANZANITE);
 
                         entries.add(Items.DIAMOND);
-
+                        entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.RAW_RUBY_BLOCK);
 
                     }).build());
 

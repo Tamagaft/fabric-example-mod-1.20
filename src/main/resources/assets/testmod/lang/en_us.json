@@ -2,5 +2,8 @@
   "item.testmod.raw_tanzanite": "Raw Tanzanite",
   "item.testmod.tanzanite": "Tanzanite",
 
+  "block.testmod.ruby_block": "Block of ruby",
+  "block.testmod.raw_ruby_block": "Block of raw ruby",
+
   "itemGroup.tanzanite": "Tanzanite Test Tab"
 }
