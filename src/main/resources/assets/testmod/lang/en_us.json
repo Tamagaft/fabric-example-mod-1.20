@@ -2,6 +2,8 @@
   "item.testmod.ruby": "Ruby",
   "item.testmod.raw_ruby": "Raw Ruby",
 
+  "item.testmod.metal_detector": "Metal Detector",
+
   "block.testmod.ruby_block": "Block of Ruby",
   "block.testmod.raw_ruby_block": "Block of Raw Ruby",
 
@@ -10,7 +12,7 @@
   "block.testmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
   "block.testmod.end_stone_ruby_ore": "End Stone Ruby Ore",
 
-  "block.testmod.metal_detector": "Metal Detector",
+  "block.testmod.sound_block": "Sound Block",
 
   "itemgroup.ruby": "Ruby Tutorial Group"
 }
