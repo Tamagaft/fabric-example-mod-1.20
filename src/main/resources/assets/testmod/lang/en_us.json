@@ -16,5 +16,7 @@
 
   "block.testmod.sound_block": "Sound Block",
 
+  "block.testmod.leap_block": "Leap Block",
+
   "itemgroup.ruby": "Ruby Tutorial Group"
 }

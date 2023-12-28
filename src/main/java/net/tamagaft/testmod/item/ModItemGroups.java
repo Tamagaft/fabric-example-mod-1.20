@@ -35,6 +35,7 @@ public class ModItemGroups {
 
                         entries.add(ModItems.METAL_DETECTOR);
                         entries.add(ModBlocks.SOUND_BLOCK);
+                        entries.add(ModBlocks.LEAP_BLOCK);
 
                     }).build());
 

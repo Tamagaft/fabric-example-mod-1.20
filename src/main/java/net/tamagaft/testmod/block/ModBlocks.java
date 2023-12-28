@@ -13,6 +13,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.tamagaft.testmod.TestMod;
+import net.tamagaft.testmod.block.custom.LeapBlock;
 import net.tamagaft.testmod.block.custom.SoundBlock;
 
 public class ModBlocks {
@@ -31,6 +32,9 @@ public class ModBlocks {
 
     public static final Block SOUND_BLOCK = registerBlock("sound_block",
             new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).luminance(1)));
+
+    public static final Block LEAP_BLOCK = registerBlock("leap_block",
+            new LeapBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).velocityMultiplier(0.15f).slipperiness(15f)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
