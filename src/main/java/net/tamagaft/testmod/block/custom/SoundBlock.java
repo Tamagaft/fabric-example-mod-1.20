@@ -22,6 +22,6 @@ public class SoundBlock extends Block {
                               PlayerEntity player, Hand hand, BlockHitResult hit) {
         world.playSound(player,pos, SoundEvents.BLOCK_NOTE_BLOCK_IRON_XYLOPHONE.value(), SoundCategory.BLOCKS, 1f,1f);
 
-        return super.onUse(state, world, pos, player, hand, hit);
+        return ActionResult.SUCCESS;
     }
 }
