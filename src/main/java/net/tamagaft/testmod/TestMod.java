@@ -2,6 +2,7 @@ package net.tamagaft.testmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.tamagaft.testmod.block.ModBlocks;
 import net.tamagaft.testmod.item.ModItemGroups;
 import net.tamagaft.testmod.item.ModItems;
@@ -17,5 +18,7 @@ public class TestMod implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE,800);
 	}
 }

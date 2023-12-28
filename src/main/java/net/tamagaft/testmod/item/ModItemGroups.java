@@ -20,6 +20,8 @@ public class ModItemGroups {
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RAW_RUBY);
 
+                        entries.add(ModItems.COAL_BRIQUETTE);
+
                         entries.add(ModItems.TOMATO);
 
                         entries.add(Items.DIAMOND);

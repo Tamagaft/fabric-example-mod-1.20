@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:charcoal"
+    }
+  },
+  "result": {
+    "item": "testmod:coal_briquette"
+  }
+}
