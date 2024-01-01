@@ -20,14 +20,17 @@
 		],
 		"client": [
 			"net.tamagaft.testmod.TestModClient"
+		],
+		"fabric-datagen": [
+			"net.tamagaft.testmod.TestModDataGenerator"
 		]
 	},
 	"mixins": [
 		"testmod.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.15.0",
-		"minecraft": "~1.20.2",
+		"fabricloader": ">=0.14.1",
+		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*"
 	},

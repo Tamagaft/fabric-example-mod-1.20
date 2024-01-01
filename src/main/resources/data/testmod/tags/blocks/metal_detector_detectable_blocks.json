@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "tutorialmod:ruby_ore",
+    "testmod:ruby_ore",
     "#minecraft:gold_ores",
     "#minecraft:emerald_ores",
     "#minecraft:redstone_ores",
