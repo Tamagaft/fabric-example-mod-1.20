@@ -1,7 +1,10 @@
-// 1.20.1	2024-01-05T22:55:00.5596545	Test Mod/Tags for minecraft:block
-219a9b2dcbc66a456ef6e31e79c0384c8b160c7f data\fabric\tags\blocks\needs_tool_level_4.json
+// 1.20.1	2024-01-06T21:58:15.5984681	Test Mod/Tags for minecraft:block
 83840f016d00c8738ece382da409288e77a46c6d data\testmod\tags\blocks\metal_detector_detectable_blocks.json
+219a9b2dcbc66a456ef6e31e79c0384c8b160c7f data\fabric\tags\blocks\needs_tool_level_4.json
 153532b7fb0ae339b30713a6ec45e39617605617 data\minecraft\tags\blocks\mineable\pickaxe.json
 86794fc1b3f958f911a3a2b1997d87521c52b470 data\minecraft\tags\blocks\needs_stone_tool.json
+dbce6b1a037980014a9e58eb3118e15ad12160c7 data\minecraft\tags\blocks\walls.json
+8e22bc5fb2501acd01366ccffbb16456c481c260 data\minecraft\tags\blocks\fences.json
 2e7911975c369c89f30e470e4c083d74439eef08 data\minecraft\tags\blocks\needs_diamond_tool.json
 af328ea8abc4c090677926cdbddbfa8231c96629 data\minecraft\tags\blocks\needs_iron_tool.json
+551082b6ccea4964a6fd91a60cd47737ae89d161 data\minecraft\tags\blocks\fence_gates.json

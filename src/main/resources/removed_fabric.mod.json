@@ -1,7 +1,0 @@
-"mixins": [
-    "testmod.mixins.json"/*,
-    {
-        "config": "testmod.client.mixins.json",
-        "environment": "client"
-    }*/
-],

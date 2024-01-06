@@ -18,6 +18,16 @@
 
   "block.testmod.leap_block": "Leap Block",
 
+  "block.testmod.ruby_stairs": "Ruby Stairs",
+  "block.testmod.ruby_slab": "Ruby Slab",
+  "block.testmod.ruby_button": "Ruby Button",
+  "block.testmod.ruby_pressure_plate": "Ruby Pressure Plate",
+  "block.testmod.ruby_fence": "Ruby Fence",
+  "block.testmod.ruby_fence_gate": "Ruby Fence Gate",
+  "block.testmod.ruby_wall": "Ruby Wall",
+  "block.testmod.ruby_door": "Ruby Door",
+  "block.testmod.ruby_trapdoor": "Ruby Trapdoor",
+
   "tooltip.testmod.metal_detector.tooltip": "Finds valuables underground",
   "tooltip.testmod.sound_block.tooltip": "Makes sound",
   "tooltip.testmod.leap_block.tooltip": "Allow to jump far",

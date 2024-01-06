@@ -4,12 +4,14 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
+import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 import net.tamagaft.testmod.block.ModBlocks;
 import net.tamagaft.testmod.item.ModItems;
+import net.minecraft.recipe.Ingredient;
 
 import java.util.List;
 import java.util.function.Consumer;
@@ -34,5 +36,37 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('C', Items.CHARCOAL)
                 .criterion(hasItem(Items.CHARCOAL), conditionsFromItem(Items.CHARCOAL))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.COAL_BRIQUETTE)));
+
+        createDoorRecipe(ModBlocks.RUBY_DOOR, Ingredient.ofItems(ModBlocks.RUBY_BLOCK))
+                .criterion(hasItem(ModBlocks.RUBY_BLOCK),conditionsFromItem(ModBlocks.RUBY_BLOCK))
+                .offerTo(exporter,new Identifier(getRecipeName(ModBlocks.RUBY_DOOR)));
+
+        createTrapdoorRecipe(ModBlocks.RUBY_TRAPDOOR, Ingredient.ofItems(ModItems.RUBY))
+                .criterion(hasItem(ModBlocks.RUBY_BLOCK),conditionsFromItem(ModBlocks.RUBY_BLOCK))
+                .offerTo(exporter,new Identifier(getRecipeName(ModBlocks.RUBY_TRAPDOOR)));
+
+        createStairsRecipe(ModBlocks.RUBY_STAIRS, Ingredient.ofItems(ModBlocks.RUBY_BLOCK))
+                .criterion(hasItem(ModBlocks.RUBY_BLOCK),conditionsFromItem(ModBlocks.RUBY_BLOCK))
+                .offerTo(exporter,new Identifier(getRecipeName(ModBlocks.RUBY_STAIRS)));
+
+        offerSlabRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.RUBY_SLAB, ModBlocks.RUBY_BLOCK);
+
+        createFenceRecipe(ModBlocks.RUBY_FENCE, Ingredient.ofItems(ModBlocks.RUBY_BLOCK))
+                .criterion(hasItem(ModBlocks.RUBY_BLOCK),conditionsFromItem(ModBlocks.RUBY_BLOCK))
+                .offerTo(exporter,new Identifier(getRecipeName(ModBlocks.RUBY_FENCE)));
+
+        createFenceGateRecipe(ModBlocks.RUBY_FENCE_GATE, Ingredient.ofItems(ModBlocks.RUBY_BLOCK))
+                .criterion(hasItem(ModBlocks.RUBY_BLOCK),conditionsFromItem(ModBlocks.RUBY_BLOCK))
+                .offerTo(exporter,new Identifier(getRecipeName(ModBlocks.RUBY_FENCE_GATE)));
+
+        offerWallRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.RUBY_WALL, ModBlocks.RUBY_BLOCK);
+
+        offerPressurePlateRecipe(exporter, ModBlocks.RUBY_PRESSURE_PLATE, ModBlocks.RUBY_BLOCK);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.RUBY_BUTTON,1)
+                .input(ModBlocks.RUBY_BLOCK)
+                .criterion(hasItem(ModBlocks.RUBY_BLOCK), conditionsFromItem(ModBlocks.RUBY_BLOCK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.RUBY_BUTTON)));
+
     }
 }
