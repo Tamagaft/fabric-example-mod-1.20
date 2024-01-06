@@ -1,4 +1,4 @@
-// 1.20.1	2024-01-06T21:58:15.5994685	Test Mod/Model Definitions
+// 1.20.1	2024-01-06T22:33:35.6057542	Test Mod/Model Definitions
 d89ed460e9c5a6a8a06b154ab143e4a5a06307a4 assets\testmod\models\item\metal_detector.json
 8866b104187e336039cee68cd54284a7b1e76718 assets\testmod\models\block\nether_ruby_ore.json
 2458994305e11e69dca84c3de687e6046ca87b64 assets\testmod\blockstates\ruby_door.json
@@ -28,8 +28,8 @@ ecac44aa45600acdd64887c7f73e0f278db6f534 assets\testmod\models\block\ruby_stairs
 d5318567ac267f79af46f0fd5794d3ecf5084424 assets\testmod\models\block\ruby_wall_inventory.json
 19d2f68af05669da0a45f193582388ccbdb3672f assets\testmod\models\item\end_stone_ruby_ore.json
 840fb81af058aac219a78fa9db2b50f55224e585 assets\testmod\models\item\ruby_pressure_plate.json
-4c73509f03ddc926c3c01a83f62fb01e8764de6b assets\testmod\models\block\leap_block.json
 ccce52e5b930faa3f9fdb458932384af33cdc03c assets\testmod\models\block\sound_block.json
+4c73509f03ddc926c3c01a83f62fb01e8764de6b assets\testmod\models\block\leap_block.json
 35aa81ba5c2e59b3b28c76c7459ea4aad8d539bc assets\testmod\models\item\raw_ruby.json
 94d6fd5ca4944a635aeee8f9b837f2677afe6434 assets\testmod\models\block\ruby_door_top_left.json
 998ccb9ae65604e42d19dcf63fb4b8b40375d824 assets\testmod\models\item\ruby_door.json
@@ -55,8 +55,8 @@ cdfd550802d9de05915f2041480bb89b369edf6f assets\testmod\models\item\ruby.json
 90d67030c8ec710b988b919bfa71c3e9c5fc9e6b assets\testmod\models\item\tomato.json
 6c80152932fa1b2ea3cc12aa7d95bd75c35ac820 assets\testmod\blockstates\ruby_stairs.json
 081291d1bc0f661a652bfedbe87d07a500abb71b assets\testmod\models\block\ruby_wall_post.json
-6cd8e29d744d3a18c8762b3190b7fcd9fdc69d1e assets\testmod\models\item\ruby_ore.json
 066ea1fd436c657992242ad2979932e1633cd532 assets\testmod\models\block\ruby_wall_side.json
+6cd8e29d744d3a18c8762b3190b7fcd9fdc69d1e assets\testmod\models\item\ruby_ore.json
 db09c06ec2e40dfaf627c990e5da7f14e671df9d assets\testmod\models\item\leap_block.json
 0ea1aa50e1ab329c4113296339079aa34a7c505c assets\testmod\models\block\ruby_door_bottom_left.json
 55d00b29b167b03b5d8c83146b79effb672e1798 assets\testmod\blockstates\ruby_ore.json
@@ -67,6 +67,7 @@ ab3317f5eec01d4854d2a50bdad6fd0e2e4adf7d assets\testmod\models\item\ruby_fence.j
 5aead1495dda25da66f53cef9f704eae61173803 assets\testmod\models\block\ruby_fence_gate_wall.json
 646aaaf855c65a1b1dd533394c0812f9b48220bb assets\testmod\blockstates\end_stone_ruby_ore.json
 3cfd050f942051df134bb7ef558be742d26be7df assets\testmod\blockstates\ruby_block.json
+a79239a01d0fdc2db9f46eab45e333daf64f5bf3 assets\testmod\models\item\ruby_staff.json
 f39e7c8fa8e8b5fe8184394de638d6b3c7046779 assets\testmod\models\block\ruby_trapdoor_open.json
 b7aac48c357f3e11c5dfefc0cf4c531b898db547 assets\testmod\models\item\ruby_stairs.json
 ca468d346fe6f72dc5c6b14dfff70dd298ed49af assets\testmod\blockstates\sound_block.json

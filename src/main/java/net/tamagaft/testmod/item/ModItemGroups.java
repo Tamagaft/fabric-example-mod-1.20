@@ -33,6 +33,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
 
                         entries.add(ModItems.METAL_DETECTOR);
+                        entries.add(ModItems.RUBY_STAFF);
+
                         entries.add(ModBlocks.SOUND_BLOCK);
                         entries.add(ModBlocks.LEAP_BLOCK);
 
