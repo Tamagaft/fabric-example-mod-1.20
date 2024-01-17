@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "testmod:leap_block",
+    "testmod:sound_block"
+  ]
+}
