@@ -14,6 +14,11 @@
   "item.testmod.ruby_sword": "Ruby Sword",
   "item.testmod.ruby_hoe": "Ruby Hoe",
 
+  "item.testmod.ruby_helmet": "Ruby Helmet",
+  "item.testmod.ruby_chestplate": "Ruby Chestplate",
+  "item.testmod.ruby_leggings": "Ruby Leggings",
+  "item.testmod.ruby_boots": "Ruby Boots",
+
   "block.testmod.ruby_block": "Block of Ruby",
   "block.testmod.raw_ruby_block": "Block of Raw Ruby",
 
