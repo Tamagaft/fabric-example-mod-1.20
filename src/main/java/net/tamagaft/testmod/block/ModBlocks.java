@@ -13,6 +13,7 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.tamagaft.testmod.TestMod;
 import net.tamagaft.testmod.block.custom.LeapBlock;
 import net.tamagaft.testmod.block.custom.SoundBlock;
+import net.tamagaft.testmod.block.custom.TomatoCropBlock;
 
 public class ModBlocks {
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
@@ -56,6 +57,9 @@ public class ModBlocks {
 
     public static final Block LEAP_BLOCK = registerBlock("leap_block",
             new LeapBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).velocityMultiplier(0.15f).slipperiness(15f)));
+
+    public static final Block TOMATO_CROP = Registry.register(Registries.BLOCK, new Identifier(TestMod.MOD_ID,"tomato_crop"),
+    new TomatoCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

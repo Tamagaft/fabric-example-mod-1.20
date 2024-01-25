@@ -8,6 +8,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.tamagaft.testmod.TestMod;
+import net.tamagaft.testmod.block.ModBlocks;
 import net.tamagaft.testmod.item.custom.MetalDetectorItem;
 import net.tamagaft.testmod.item.custom.ModArmorItem;
 
@@ -44,6 +45,8 @@ public class ModItems {
     public static final Item RUBY_BOOTS = registerItem("ruby_boots",
             new ArmorItem(ModArmorMaterials .RUBY, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
+    public static final Item TOMATO_SEEDS = registerItem("tomato_seeds",
+            new AliasedBlockItem(ModBlocks.TOMATO_CROP, new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);
