@@ -1,4 +1,4 @@
-// 1.20.1	2024-01-25T21:47:50.883642676	Test Mod/Tags for minecraft:block
+// 1.20.1	2024-01-25T22:33:21.695825537	Test Mod/Tags for minecraft:block
 86794fc1b3f958f911a3a2b1997d87521c52b470 data/minecraft/tags/blocks/needs_stone_tool.json
 2e7911975c369c89f30e470e4c083d74439eef08 data/minecraft/tags/blocks/needs_diamond_tool.json
 0ead991547f07c77ad990f02278398aec7212a26 data/fabric/tags/blocks/needs_tool_level_5.json

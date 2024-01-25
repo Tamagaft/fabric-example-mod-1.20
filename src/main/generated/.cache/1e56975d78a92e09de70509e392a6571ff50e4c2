@@ -1,11 +1,11 @@
-// 1.20.1	2024-01-25T21:47:50.886098108	Test Mod/Recipes
+// 1.20.1	2024-01-25T22:33:21.698304895	Test Mod/Recipes
 bce6357a1e938e477b9a10299606c73154853134 data/testmod/recipes/ruby_slab.json
 7c6ea4e28fd6b09bee8d8123fe2f7aeaabe2c263 data/testmod/recipes/ruby_pressure_plate.json
 c7b8c7a15bd03b5aaa5d0ece4e1d609684f7a496 data/testmod/advancements/recipes/tools/ruby_hoe.json
 f4f4c8055be959bfeda4aca0144215beb173eadd data/testmod/recipes/ruby.json
 34efa865c8a9669c150beb55b77a0a03b1510dc7 data/testmod/advancements/recipes/redstone/ruby_pressure_plate.json
-d84d1311783c0556b8667e5be7997dda54bec7b5 data/testmod/recipes/ruby_button.json
 732c6f534fee90472a9a74d299e9198360581628 data/testmod/advancements/recipes/decorations/ruby_wall.json
+d84d1311783c0556b8667e5be7997dda54bec7b5 data/testmod/recipes/ruby_button.json
 55af91f7c39470a90c5cbae0db439b2a314c49d2 data/testmod/recipes/ruby_from_blasting_deepslate_ruby_ore.json
 d36e2d26229b9bb844762d13a5f7bf8f0bd1e427 data/testmod/advancements/recipes/decorations/ruby_fence.json
 d7aad7c4f3360b637007cabdbefe64999e37fbf7 data/testmod/recipes/ruby_trapdoor.json

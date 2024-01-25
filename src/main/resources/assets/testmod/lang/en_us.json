@@ -1,7 +1,12 @@
 {
   "item.testmod.ruby": "Ruby",
   "item.testmod.raw_ruby": "Raw Ruby",
+
   "item.testmod.tomato": "Tomato",
+  "item.testmod.tomato_seeds": "Tomatoe Seeds",
+  "item.testmod.corn_seeds": "Corn Seeds",
+  "item.testmod.corn": "Corn",
+
   "item.testmod.coal_briquette": "Coal Briquette",
 
   "item.testmod.metal_detector": "Metal Detector",
@@ -13,8 +18,6 @@
   "item.testmod.ruby_axe": "Ruby Axe",
   "item.testmod.ruby_sword": "Ruby Sword",
   "item.testmod.ruby_hoe": "Ruby Hoe",
-  "item.testmod.tomato_seeds": "Tomatoe Seeds",
-
   "item.testmod.ruby_helmet": "Ruby Helmet",
   "item.testmod.ruby_chestplate": "Ruby Chestplate",
   "item.testmod.ruby_leggings": "Ruby Leggings",

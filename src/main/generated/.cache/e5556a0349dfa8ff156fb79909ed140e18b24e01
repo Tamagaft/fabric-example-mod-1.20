@@ -1,10 +1,11 @@
-// 1.20.1	2024-01-25T21:47:50.886585592	Test Mod/Block Loot Tables
+// 1.20.1	2024-01-25T22:33:21.698778393	Test Mod/Block Loot Tables
 ea272c523f041f04521bd7be1b1fa24999087745 data/testmod/loot_tables/blocks/ruby_trapdoor.json
 6d6cfc7945cc669753b8839b21b4f02c820222e6 data/testmod/loot_tables/blocks/nether_ruby_ore.json
 d124ade1aa3f3df7b01f61a483c0c0cd20ea7b40 data/testmod/loot_tables/blocks/ruby_door.json
 08ed6d49274749ca2ab9ae70e0e528dc2efaefbf data/testmod/loot_tables/blocks/ruby_fence.json
 28d4ba9f17c5c211594658c28212a411b0185c79 data/testmod/loot_tables/blocks/ruby_button.json
 0d34c073c4daf31ac0a1ed6fc01583692b23688b data/testmod/loot_tables/blocks/ruby_slab.json
+f2d2b027948db0d486cd988c1b56fbed5ac6d478 data/testmod/loot_tables/blocks/corn_crop.json
 6d6cfc7945cc669753b8839b21b4f02c820222e6 data/testmod/loot_tables/blocks/deepslate_ruby_ore.json
 a6cbbed71d38a613f22d53835cd12a3fde8b77b9 data/testmod/loot_tables/blocks/ruby_wall.json
 5d39da111009e7bbac4884a49f5134ca3c11f0f7 data/testmod/loot_tables/blocks/ruby_pressure_plate.json

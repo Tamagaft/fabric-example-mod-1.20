@@ -21,7 +21,10 @@ public class ModItemGroups {
 
                         entries.add(ModItems.COAL_BRIQUETTE);
 
+                        entries.add(ModItems.TOMATO_SEEDS);
                         entries.add(ModItems.TOMATO);
+                        entries.add(ModItems.CORN_SEEDS);
+                        entries.add(ModItems.CORN);
 
                         entries.add(Items.DIAMOND);
                         entries.add(ModBlocks.RUBY_BLOCK);
@@ -41,7 +44,6 @@ public class ModItemGroups {
                         entries.add(ModItems.RUBY_SWORD);
                         entries.add(ModItems.RUBY_HOE);
 
-                        entries.add(ModItems.TOMATO_SEEDS);
 
                         entries.add(ModItems.RUBY_HELMET);
                         entries.add(ModItems.RUBY_CHESTPLATE);

@@ -11,6 +11,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.tamagaft.testmod.TestMod;
+import net.tamagaft.testmod.block.custom.CornCropBlock;
 import net.tamagaft.testmod.block.custom.LeapBlock;
 import net.tamagaft.testmod.block.custom.SoundBlock;
 import net.tamagaft.testmod.block.custom.TomatoCropBlock;
@@ -59,7 +60,9 @@ public class ModBlocks {
             new LeapBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).velocityMultiplier(0.15f).slipperiness(15f)));
 
     public static final Block TOMATO_CROP = Registry.register(Registries.BLOCK, new Identifier(TestMod.MOD_ID,"tomato_crop"),
-    new TomatoCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
+            new TomatoCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
+    public static final Block CORN_CROP = Registry.register(Registries.BLOCK, new Identifier(TestMod.MOD_ID,"corn_crop"),
+            new CornCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
