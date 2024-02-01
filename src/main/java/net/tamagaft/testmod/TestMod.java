@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.tamagaft.testmod.block.ModBlocks;
 import net.tamagaft.testmod.item.ModItemGroups;
 import net.tamagaft.testmod.item.ModItems;
+import net.tamagaft.testmod.util.ModCustomTrades;
 import net.tamagaft.testmod.util.ModLootTablesModifiers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,6 +22,7 @@ public class TestMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModLootTablesModifiers.modifyLootTables();
+		ModCustomTrades.registerCustomTrade();
 
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE,800);
 	}
