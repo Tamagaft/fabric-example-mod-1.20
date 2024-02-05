@@ -16,6 +16,7 @@ import net.tamagaft.testmod.block.custom.CornCropBlock;
 import net.tamagaft.testmod.block.custom.LeapBlock;
 import net.tamagaft.testmod.block.custom.SoundBlock;
 import net.tamagaft.testmod.block.custom.TomatoCropBlock;
+import net.tamagaft.testmod.sound.ModSounds;
 
 public class ModBlocks {
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
@@ -32,7 +33,7 @@ public class ModBlocks {
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.END_STONE).strength(2.5f), UniformIntProvider.create(3,6)));
 
     public static final Block SOUND_BLOCK = registerBlock("sound_block",
-            new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).luminance(1)));
+            new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).luminance(10).sounds(ModSounds.SOUND_BLOCK_SOUNDS)));
 
     public static final Block RUBY_STAIRS = registerBlock("ruby_stairs",
             new StairsBlock(ModBlocks.RUBY_BLOCK.getDefaultState(),

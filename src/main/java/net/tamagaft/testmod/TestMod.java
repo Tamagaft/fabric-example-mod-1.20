@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.tamagaft.testmod.block.ModBlocks;
 import net.tamagaft.testmod.item.ModItemGroups;
 import net.tamagaft.testmod.item.ModItems;
+import net.tamagaft.testmod.sound.ModSounds;
 import net.tamagaft.testmod.util.ModCustomTrades;
 import net.tamagaft.testmod.util.ModLootTablesModifiers;
 import net.tamagaft.testmod.villager.ModVillagers;
@@ -26,6 +27,7 @@ public class TestMod implements ModInitializer {
 		ModCustomTrades.registerCustomTrade();
 
 		ModVillagers.registerVillagers();
+		ModSounds.registerSounds();
 
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE,800);
 	}
