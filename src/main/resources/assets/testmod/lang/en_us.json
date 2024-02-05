@@ -50,5 +50,7 @@
   "tooltip.testmod.sound_block.tooltip": "Makes sound",
   "tooltip.testmod.leap_block.tooltip": "Allow to jump far",
 
+  "entity.minecraft.villager.sound_master": "Soundmaster",
+
   "itemgroup.ruby": "Ruby Tutorial Group"
 }
