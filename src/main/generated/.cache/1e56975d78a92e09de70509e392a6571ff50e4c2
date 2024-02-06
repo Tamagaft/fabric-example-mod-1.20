@@ -1,4 +1,4 @@
-// 1.20.1	2024-02-05T21:51:17.847645997	Test Mod/Recipes
+// 1.20.1	2024-02-06T20:07:44.550419886	Test Mod/Recipes
 bce6357a1e938e477b9a10299606c73154853134 data/testmod/recipes/ruby_slab.json
 7c6ea4e28fd6b09bee8d8123fe2f7aeaabe2c263 data/testmod/recipes/ruby_pressure_plate.json
 c7b8c7a15bd03b5aaa5d0ece4e1d609684f7a496 data/testmod/advancements/recipes/tools/ruby_hoe.json
@@ -23,8 +23,8 @@ ae3bb77074ff6561ebb3115583e581e227bb7c23 data/testmod/recipes/ruby_door.json
 2e34cb08e718a7b6e01d5ffdbef0c04177914691 data/testmod/recipes/ruby_from_smelting_deepslate_ruby_ore.json
 aa9598b9718d8979b7b1510610f270262f3df006 data/testmod/advancements/recipes/misc/ruby_from_blasting_raw_ruby.json
 3df693b313cccef9790fa0a0aea5b0d9d4254def data/testmod/advancements/recipes/redstone/ruby_button.json
-d16d2277f3e411fb0e02e5b547e6d826470c321c data/testmod/recipes/ruby_sword.json
 ace68dd8d47ed6e878335e7d58a0444d01da6010 data/testmod/recipes/ruby_fence.json
+d16d2277f3e411fb0e02e5b547e6d826470c321c data/testmod/recipes/ruby_sword.json
 395103634328dc324b613e53c19b7ccddc99a21a data/testmod/advancements/recipes/misc/ruby_from_smelting_deepslate_ruby_ore.json
 3258c0409dfb3ba5973b48cf2fc4b7851781e7a0 data/testmod/advancements/recipes/tools/ruby_axe.json
 a90f0f34290f9ee6f8ac318c0e6a4ea2fb21956d data/testmod/advancements/recipes/tools/ruby_sword.json

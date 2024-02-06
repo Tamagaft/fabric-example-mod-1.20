@@ -11,6 +11,7 @@ import net.tamagaft.testmod.TestMod;
 import net.tamagaft.testmod.block.ModBlocks;
 import net.tamagaft.testmod.item.custom.MetalDetectorItem;
 import net.tamagaft.testmod.item.custom.ModArmorItem;
+import net.tamagaft.testmod.sound.ModSounds;
 
 public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
@@ -51,6 +52,9 @@ public class ModItems {
             new AliasedBlockItem(ModBlocks.CORN_CROP, new FabricItemSettings()));
     public static final Item CORN = registerItem("corn",
             new Item(new FabricItemSettings().food(ModFoodComponents.CORN)));
+
+    public static final Item BAR_BRAWL_MUSIC_DISC = registerItem("bar_brawl_music_disc",
+            new MusicDiscItem(7, ModSounds.BAR_BRAWL, new FabricItemSettings().maxCount(1), 122));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);

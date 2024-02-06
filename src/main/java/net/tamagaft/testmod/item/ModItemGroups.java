@@ -65,6 +65,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RUBY_DOOR);
                         entries.add(ModBlocks.RUBY_TRAPDOOR);
 
+                        entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
+
 
                     }).build());
 
