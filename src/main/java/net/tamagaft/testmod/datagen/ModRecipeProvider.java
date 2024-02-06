@@ -2,7 +2,7 @@ package net.tamagaft.testmod.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
-import net.minecraft.data.server.recipe.RecipeJsonProvider;
+import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
@@ -23,7 +23,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         super(output);
     }
     @Override
-    public void generate(Consumer<RecipeJsonProvider> exporter) {
+    public void generate(RecipeExporter exporter) {
         offerSmelting(exporter,RUBY_SMELTABLES, RecipeCategory.MISC, ModItems.RUBY, 1f, 200,"ruby");
         offerBlasting(exporter,RUBY_SMELTABLES, RecipeCategory.MISC, ModItems.RUBY, 1f, 100,"ruby");
 
