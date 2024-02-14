@@ -46,6 +46,8 @@
   "block.testmod.ruby_door": "Ruby Door",
   "block.testmod.ruby_trapdoor": "Ruby Trapdoor",
 
+  "item.tutorialmod.porcupine_spawn_egg": "Porcupine Spawn Egg",
+
   "tooltip.testmod.metal_detector.tooltip": "Finds valuables underground",
   "tooltip.testmod.sound_block.tooltip": "Makes sound",
   "tooltip.testmod.leap_block.tooltip": "Allow to jump far",

@@ -2,8 +2,15 @@ package net.tamagaft.testmod;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
+import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.minecraft.client.render.RenderLayer;
+import net.minecraft.client.render.entity.model.EntityModelLayer;
 import net.tamagaft.testmod.block.ModBlocks;
+import net.tamagaft.testmod.entity.ModEntities;
+import net.tamagaft.testmod.entity.client.ModModelLayers;
+import net.tamagaft.testmod.entity.client.PorcupineModel;
+import net.tamagaft.testmod.entity.client.PorcupineRenderer;
 
 public class TestModClient implements ClientModInitializer {
     @Override
@@ -16,5 +23,8 @@ public class TestModClient implements ClientModInitializer {
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.DAHLIA, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_DAHLIA, RenderLayer.getCutout());
+
+        EntityRendererRegistry.register(ModEntities.PORCUPINE, PorcupineRenderer::new);
+        EntityModelLayerRegistry.registerModelLayer(ModModelLayers.PORCUPINE, PorcupineModel::getTexturedModelData);
     }
 }
