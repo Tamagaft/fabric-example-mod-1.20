@@ -12,10 +12,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.tamagaft.testmod.TestMod;
-import net.tamagaft.testmod.block.custom.CornCropBlock;
-import net.tamagaft.testmod.block.custom.LeapBlock;
-import net.tamagaft.testmod.block.custom.SoundBlock;
-import net.tamagaft.testmod.block.custom.TomatoCropBlock;
+import net.tamagaft.testmod.block.custom.*;
 import net.tamagaft.testmod.sound.ModSounds;
 
 public class ModBlocks {
@@ -70,6 +67,9 @@ public class ModBlocks {
             new FlowerBlock(StatusEffects.HEALTH_BOOST, 10, FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
     public static final Block POTTED_DAHLIA = Registry.register(Registries.BLOCK, new Identifier(TestMod.MOD_ID,"potted_dahlia"),
             new FlowerPotBlock(DAHLIA, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+
+    public static final Block GEM_POLISHING_STATION = registerBlock("gem_polishing_station",
+            new GemPolishingStationBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR).nonOpaque()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

@@ -59,5 +59,8 @@
   "item.testmod.bar_brawl_music_disc": "Bar Brawl Music Disc",
   "item.testmod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
 
+  "block.testmod.gem_polishing_station": "Gem Polishing Station",
+  "block.gem_polishing_station_entity": "Gem Polishing Station",
+
   "itemgroup.ruby": "Ruby Tutorial Group"
 }
