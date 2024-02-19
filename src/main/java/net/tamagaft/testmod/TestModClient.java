@@ -6,7 +6,10 @@ import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.minecraft.client.gui.screen.ingame.HandledScreens;
 import net.minecraft.client.render.RenderLayer;
+import net.minecraft.client.render.block.entity.BlockEntityRendererFactories;
 import net.tamagaft.testmod.block.ModBlocks;
+import net.tamagaft.testmod.block.entity.ModBlockEntities;
+import net.tamagaft.testmod.block.entity.renderer.GemPolishingBlockEntityRenderer;
 import net.tamagaft.testmod.entity.ModEntities;
 import net.tamagaft.testmod.entity.client.ModModelLayers;
 import net.tamagaft.testmod.entity.client.PorcupineModel;
@@ -30,5 +33,7 @@ public class TestModClient implements ClientModInitializer {
         EntityModelLayerRegistry.registerModelLayer(ModModelLayers.PORCUPINE, PorcupineModel::getTexturedModelData);
 
         HandledScreens.register(ModScreenHandlers.GEM_POLISHING_SCREEN_HANDLER, GemPolishingScreen::new);
+
+        BlockEntityRendererFactories.register(ModBlockEntities.GOM_POLISHING_STATION_BLOCK_ENTITY, GemPolishingBlockEntityRenderer::new);
     }
 }
