@@ -23,6 +23,9 @@
 		],
 		"fabric-datagen": [
 			"net.tamagaft.testmod.TestModDataGenerator"
+		],
+		"rei_client": [
+			"net.tamagaft.testmod.compat.TestModREIClientPlugin"
 		]
 	},
 	"mixins": [
