@@ -1,4 +1,6 @@
-// 1.20.2	2024-02-18T20:35:10.45058037	Test Mod/Tags for minecraft:item
+// 1.20.2	2024-02-25T18:32:17.88015611	Test Mod/Tags for minecraft:item
 c7debfddba4652ee436c00a29f602975d3c3ee9b data/minecraft/tags/items/creeper_drop_music_discs.json
+0d0da33b7cae709ce50b2049003a50092e320f99 data/minecraft/tags/items/planks.json
+c4dc4bd61522508203227ea87d6a6dd9106103bc data/minecraft/tags/items/logs_that_burn.json
 c7debfddba4652ee436c00a29f602975d3c3ee9b data/minecraft/tags/items/music_discs.json
 b69a2626000cdb550ca5abe99215db599a8b2649 data/minecraft/tags/items/trimmable_armor.json

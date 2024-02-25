@@ -46,7 +46,7 @@
   "block.testmod.ruby_door": "Ruby Door",
   "block.testmod.ruby_trapdoor": "Ruby Trapdoor",
 
-  "item.tutorialmod.porcupine_spawn_egg": "Porcupine Spawn Egg",
+  "item.testmod.porcupine_spawn_egg": "Porcupine Spawn Egg",
 
   "tooltip.testmod.metal_detector.tooltip": "Finds valuables underground",
   "tooltip.testmod.sound_block.tooltip": "Makes sound",
@@ -62,5 +62,12 @@
   "block.testmod.gem_polishing_station": "Gem Polishing Station",
   "block.gem_polishing_station_entity": "Gem Polishing Station",
 
-  "itemgroup.ruby": "Ruby Tutorial Group"
+  "block.testmod.chestnut_log": "Chestnut Log",
+  "block.testmod.chestnut_wood": "Chestnut Wood",
+  "block.testmod.stripped_chestnut_log": "Stripped Chestnut Log",
+  "block.testmod.stripped_chestnut_wood": "Stripped Chestnut Wood",
+  "block.testmod.chestnut_planks": "Chestnut Planks",
+  "block.testmod.chestnut_leaves": "Chestnut Leaves",
+
+  "itemgroup.ruby": "Ruby test Group"
 }

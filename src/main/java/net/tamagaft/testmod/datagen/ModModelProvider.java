@@ -48,6 +48,11 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerSimpleState(ModBlocks.GEM_POLISHING_STATION);
 
+        blockStateModelGenerator.registerLog(ModBlocks.CHESTNUT_LOG).log(ModBlocks.CHESTNUT_LOG).wood(ModBlocks.CHESTNUT_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_CHESTNUT_LOG).log(ModBlocks.STRIPPED_CHESTNUT_LOG).wood(ModBlocks.STRIPPED_CHESTNUT_WOOD);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHESTNUT_PLANKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHESTNUT_LEAVES);
+
     }
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
