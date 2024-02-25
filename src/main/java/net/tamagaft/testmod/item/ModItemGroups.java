@@ -77,6 +77,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STRIPPED_CHESTNUT_LOG);
                         entries.add(ModBlocks.CHESTNUT_PLANKS);
                         entries.add(ModBlocks.CHESTNUT_LEAVES);
+                        entries.add(ModItems.CHESTNUT_SIGN);
+                        entries.add(ModItems.HANGING_CHESTNUT_SIGN);
 
 
                     }).build());

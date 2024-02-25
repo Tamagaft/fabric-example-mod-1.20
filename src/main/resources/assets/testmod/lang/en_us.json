@@ -69,5 +69,11 @@
   "block.testmod.chestnut_planks": "Chestnut Planks",
   "block.testmod.chestnut_leaves": "Chestnut Leaves",
 
+  "block.testmod.chestnut_standing_sign": "Chestnut Standing Sign",
+  "block.testmod.chestnut_wall_sign": "Chestnut Wall Sign",
+  "block.testmod.chestnut_hanging_sign": "Chestnut Hanging Sign",
+  "block.testmod.chestnut_wall_hanging_sign": "Chestnut Wall Hanging Sign",
+
+
   "itemgroup.ruby": "Ruby test Group"
 }
